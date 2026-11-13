@@ -1,0 +1,16 @@
+[package]
+name = "astrolabiu-cli"
+description = "Command-line tool for ASTROLABIU"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+
+[[bin]]
+name = "astrolabiu"
+path = "src/main.rs"
+
+[dependencies]
+astrolabiu-core = { workspace = true }
