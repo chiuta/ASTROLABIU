@@ -2,13 +2,23 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · **Magyar**
 
-Verzió: 0.1.0-alpha.1 · Utolsó frissítés: 13.11.2026
+Verzió: 0.1.0-alpha.1 · Utolsó frissítés: 2026-11-14
 
 🌐 https://astrolabiu.chiuta.ro
 
 ## Állapot
 
 Korai váz (pre-alfa): a workspace lefordul, a tesztek a CI-ben lefutnak. Minden tervezett funkció nyitott feladat a `docs/issues/` mappában.
+
+## Tervezett terjedelem
+
+- Időskálák (UTC, TAI, TT) szökőmásodperc-táblával, ΔT a −1999…3000 tartományra és Julián-napi átváltás, az 1582-es váltással együtt.
+- A Nap (látszó hosszúság és deklináció) és a Hold helyzete a csonkolt Meeus-sorozatból.
+- Holdfázisok: a következő újhold, telihold és negyedek.
+- Kelte, nyugta, delelés és szürkület tetszőleges szélességre és hosszúságra, valamint napfogyatkozás-körülmények Bessel-elemekből.
+- Naptárak (Julián, héber, iszlám táblázatos, perzsa, ISO-hét), egy `PlanetProvider` trait és egy WebAssembly demóoldal.
+
+Ezek közül még semmi sincs megvalósítva: minden pont nyitott feladat a `docs/issues/` mappában.
 
 ## Fordítás és tesztelés
 

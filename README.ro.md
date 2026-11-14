@@ -2,13 +2,23 @@
 
 [English](README.md) · **Română** · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-Versiune: 0.1.0-alpha.1 · Ultima actualizare: 13.11.2026
+Versiune: 0.1.0-alpha.1 · Ultima actualizare: 2026-11-14
 
 🌐 https://astrolabiu.chiuta.ro
 
 ## Stare
 
 Schelet timpuriu (pre-alfa): workspace-ul se compilează, iar testele trec în CI. Fiecare funcție planificată este o sarcină deschisă în `docs/issues/`.
+
+## Domeniu planificat
+
+- Scări de timp (UTC, TAI, TT) cu tabel de secunde intercalare, ΔT pentru −1999…3000 și conversii Zi Iuliană, inclusiv trecerea din 1582.
+- Poziția Soarelui (longitudine aparentă și declinație) și a Lunii din seria Meeus trunchiată.
+- Fazele Lunii: următoarea lună nouă, plină și sferturile.
+- Răsărit, apus, trecere la meridian și crepuscul pentru orice latitudine și longitudine, și circumstanțele eclipselor de Soare din elementele Bessel.
+- Calendare (iulian, ebraic, islamic tabelar, persan, săptămână ISO), un trait `PlanetProvider` și o pagină demo WebAssembly.
+
+Nimic din asta nu este implementat încă: fiecare punct este o sarcină deschisă în `docs/issues/`.
 
 ## Compilare și testare
 

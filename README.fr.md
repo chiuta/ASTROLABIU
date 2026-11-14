@@ -2,13 +2,23 @@
 
 [English](README.md) · [Română](README.ro.md) · **Français** · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-Version : 0.1.0-alpha.1 · Dernière mise à jour : 13.11.2026
+Version : 0.1.0-alpha.1 · Dernière mise à jour : 2026-11-14
 
 🌐 https://astrolabiu.chiuta.ro
 
 ## État
 
 Squelette précoce (pré-alpha) : le workspace compile et les tests passent en CI. Chaque fonctionnalité prévue est une tâche ouverte dans `docs/issues/`.
+
+## Périmètre prévu
+
+- Échelles de temps (UTC, TAI, TT) avec table des secondes intercalaires, ΔT pour −1999…3000 et conversions en jour julien, y compris le passage de 1582.
+- Position du Soleil (longitude apparente et déclinaison) et de la Lune à partir de la série de Meeus tronquée.
+- Phases de la Lune : prochaine nouvelle lune, pleine lune et quartiers.
+- Lever, coucher, passage au méridien et crépuscule pour toute latitude et longitude, et circonstances des éclipses solaires à partir des éléments de Bessel.
+- Calendriers (julien, hébraïque, islamique tabulaire, persan, semaine ISO), un trait `PlanetProvider` et une page de démonstration WebAssembly.
+
+Rien de tout cela n’est encore implémenté : chaque point est une tâche ouverte dans `docs/issues/`.
 
 ## Compiler et tester
 

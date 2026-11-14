@@ -2,13 +2,23 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · **Deutsch** · [Magyar](README.hu.md)
 
-Version: 0.1.0-alpha.1 · Letzte Aktualisierung: 13.11.2026
+Version: 0.1.0-alpha.1 · Letzte Aktualisierung: 2026-11-14
 
 🌐 https://astrolabiu.chiuta.ro
 
 ## Status
 
 Frühes Grundgerüst (Pre-Alpha): Das Workspace baut, und die Tests laufen in der CI durch. Jede geplante Funktion ist eine offene Aufgabe in `docs/issues/`.
+
+## Geplanter Umfang
+
+- Zeitskalen (UTC, TAI, TT) mit Schaltsekundentabelle, ΔT für −1999…3000 und Umrechnung in Julianische Tage, einschließlich der Umstellung 1582.
+- Position der Sonne (scheinbare Länge und Deklination) und des Mondes aus der gekürzten Meeus-Reihe.
+- Mondphasen: nächster Neumond, Vollmond und Viertel.
+- Auf-, Untergang, Kulmination und Dämmerung für beliebige Breite und Länge sowie Sonnenfinsternis-Umstände aus Besselschen Elementen.
+- Kalender (julianisch, hebräisch, islamisch tabellarisch, persisch, ISO-Woche), ein `PlanetProvider`-Trait und eine WebAssembly-Demoseite.
+
+Nichts davon ist bisher umgesetzt: Jeder Punkt ist eine offene Aufgabe in `docs/issues/`.
 
 ## Bauen und testen
 
